@@ -102,7 +102,7 @@ function Information() {
           </figcaption>
         </figure>
       </div>
-      <img className="zoa center" src={zoa}></img>
+      <img className="zoa center" alt="Zoa Energy" src={zoa}></img>
       <div className="right-fig">
         <figure data-aos="fade-left">
           <svg x="0px" y="0px" width="60px" height="60px" viewBox="0 0 32 32">
