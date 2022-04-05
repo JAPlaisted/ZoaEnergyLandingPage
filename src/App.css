@@ -63,12 +63,14 @@ html {
   scroll-behavior: smooth;
 }
 
+@media screen and (max-width: 767px) {
+  html {
+    overflow-x: hidden;
+  }
+}
+
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
   overflow-x: hidden;
-  position: absolute;
   top: 0;
   left: 0;
 }
