@@ -61,6 +61,7 @@ a {
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -83,6 +84,17 @@ container {
 
 button {
   float: right;
+}
+
+button > svg {
+  width:20px;
+  height:20px;
+}
+
+@media screen and (max-width: 768px) {
+  container {
+   left: 70%;
+  }
 }
 
 header {
