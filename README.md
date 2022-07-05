@@ -4,15 +4,15 @@ ZOA is about healthy, positive energy that helps us all focus, be productive, an
 
 ## Visit Live Site
 
-https://admirable-lebkuchen-db46f7.netlify.app/
+https://stately-tarsier-fd5ad6.netlify.app/
 
 ## Project Screenshots
 
-![Zoa-1](https://user-images.githubusercontent.com/55415399/163902388-ac3909f2-ae06-48d5-bb80-f32c06605e68.PNG)
+![mb1](https://user-images.githubusercontent.com/55415399/177389984-f396a6a9-45de-424e-b20f-fd2af97f41b9.PNG)
+![mb2](https://user-images.githubusercontent.com/55415399/177389992-e1db1dab-5608-4da6-bf91-828c43c07dca.PNG)
+![mb3](https://user-images.githubusercontent.com/55415399/177389997-2b493780-8058-4826-a2b3-91612986524e.PNG)
+![mb4](https://user-images.githubusercontent.com/55415399/177390010-9b329dab-856c-4bfd-b059-516f3323c9ef.PNG)
 
-![Zoa-2](https://user-images.githubusercontent.com/55415399/163902396-b7f5e0bc-d4b1-4d14-bfc9-a99656229982.PNG)
-
-![Zoa-3](https://user-images.githubusercontent.com/55415399/163902400-c9f62a5e-f24f-43d8-bb88-89cb95aec010.PNG)
 
 ## Installation
 
@@ -28,7 +28,7 @@ npm start
 
 ## Reflection
 
-This project was created for me to practice and learn how to implement a dark theme in a react application. My solution to achieve this was to create two CSS color palates, one labeled 'darkmode' and add or remove that class from the body of the page using a javascript button. The state is then stored in local storage on your machine so your preference will be remembered next time you visit. Local storage is a safe way to store information on a machine as it transmits no data back to the server. 
+This project was created for a client but provided me with many learning opportunities. This site utilizes email.js for routing email from an HTML form. The nav is designed using custom CSS to create the illusion of blood dripping from it. 
 
 This project features the AOS (animate on scroll) library available here. https://michalsnik.github.io/aos/
 
