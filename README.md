@@ -1,17 +1,16 @@
-## Mike Bourne Music 
+## Zoa Energy Landing Page
 
-Mike Bourne is an Arkansas based rapper and US service member. This site acts as the main destination for Mike Bourne music, merchandise, and information. Built with React, JavaScript, and CSS.
+ZOA is about healthy, positive energy that helps us all focus, be productive, and get stronger together. This Zoa landing page can be used to learn about and purchase some Zoa Energy! Built with React, JavaScript, and CSS.
 
 ## Visit Live Site
 
-https://stately-tarsier-fd5ad6.netlify.app/
+https://admirable-lebkuchen-db46f7.netlify.app/
 
 ## Project Screenshots
 
-![mb1](https://user-images.githubusercontent.com/55415399/177389984-f396a6a9-45de-424e-b20f-fd2af97f41b9.PNG)
-![mb2](https://user-images.githubusercontent.com/55415399/177389992-e1db1dab-5608-4da6-bf91-828c43c07dca.PNG)
-![mb3](https://user-images.githubusercontent.com/55415399/177389997-2b493780-8058-4826-a2b3-91612986524e.PNG)
-![mb4](https://user-images.githubusercontent.com/55415399/177390010-9b329dab-856c-4bfd-b059-516f3323c9ef.PNG)
+![Zoa-1](https://user-images.githubusercontent.com/55415399/177394580-31c6a0b1-62b6-42ea-8b92-657d3dae854e.PNG)
+![Zoa-2](https://user-images.githubusercontent.com/55415399/177394587-ada9e411-c3d5-490d-8a16-4958606201d1.PNG)
+![Zoa-3](https://user-images.githubusercontent.com/55415399/177394596-94e46886-c0fc-43f8-8fc8-824c3ef25015.PNG)
 
 
 ## Installation
@@ -28,7 +27,7 @@ npm start
 
 ## Reflection
 
-This project was created for a client but provided me with many learning opportunities. This site utilizes email.js for routing email from an HTML form. The nav is designed using custom CSS to create the illusion of blood dripping from it. 
+This project was created for me to practice and learn how to implement a dark theme in a react application. My solution to achieve this was to create two CSS color palates, one labeled 'darkmode' and add or remove that class from the body of the page using a javascript button. The state is then stored in local storage on your machine so your preference will be remembered next time you visit. Local storage is a safe way to store information on a machine as it transmits no data back to the server.
 
 This project features the AOS (animate on scroll) library available here. https://michalsnik.github.io/aos/
 
