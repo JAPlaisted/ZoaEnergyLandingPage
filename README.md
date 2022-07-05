@@ -1,6 +1,6 @@
-## Zoa Energy Landing Page 
+## Mike Bourne Music 
 
-ZOA is about healthy, positive energy that helps us all focus, be productive, and get stronger together. This Zoa landing page can be used to learn about and purchase some Zoa Energy! Built with React, JavaScript, and CSS.
+Mike Bourne is an Arkansas based rapper and US service member. This site acts as the main destination for Mike Bourne music, merchandise, and information. Built with React, JavaScript, and CSS.
 
 ## Visit Live Site
 
