@@ -205,7 +205,7 @@ padding: 8rem;
 .info {
   background-color: var(--color-section);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   color: var(--color-headings);
 }
@@ -216,23 +216,28 @@ figure {
 }
 
 .zoa {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  height: 700px;
+  height: 400px;
+  margin-top: 8em;
 }
 
-@media screen and (max-width: 768px) {
-  .zoa {
-    display: none;
-  }
+figcaption {
+  font-size: .5rem;
+  padding: 1rem;
+}
 
-  figcaption {
-    font-size: .5rem;
-    padding: 1rem;
+figcaption > b {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 400px) {
+  .info {
+    display: flex;
+    flex-direction: row;
   }
-  
-  figcaption > b {
-    font-size: 1rem;
+  .zoa {
+    height: 700px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 }
 
@@ -304,6 +309,26 @@ svg {
 
 }
 
+/* Banner */
+
+.banner {
+  height: 30vh;
+  background-color: var(--color-border);
+  color: var(--color-headings-light);
+}
+
+.banner > h2 {
+  text-align: center;
+  font-size: 8rem;
+  padding: 2.5%;
+}
+
+@media screen and (min-width: 390px) {
+  .banner > h2 {
+    font-size: 15rem;
+  }
+}
+
 /* Footer */
 
 .footer {
@@ -313,8 +338,6 @@ svg {
   display: flex;
   justify-content: center;
 }
-
-
 
 .footer-text {
   color: whitesmoke;
