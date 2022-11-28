@@ -138,7 +138,7 @@ function Header() {
           <div className="btns">
             <a
               className="btn-primary"
-              href="https://www.amazon.com/ZOA-Calorie-Energy-Drink-Original/dp/B08PDLG236/ref=sr_1_11?keywords=zoa&qid=1649020846&sr=8-11"
+              href="https://zoaenergy.com/45636747418/checkouts/95c3bbf8c7f4a1a2d37b860da5826d51?_ga=2.225462362.1905526442.1669663375-243135093.1666323666"
               target="_blank"
               rel="noreferrer"
             >
