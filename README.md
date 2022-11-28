@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+## Zoa Energy Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ZOA is about healthy, positive energy that helps us all focus, be productive, and get stronger together. This Zoa landing page can be used to learn about and purchase some Zoa Energy! Built with React, JavaScript, and CSS.
 
-## Available Scripts
+## Visit Live Site
 
-In the project directory, you can run:
+https://admirable-lebkuchen-db46f7.netlify.app/
 
-### `npm start`
+## Project Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Zoa-1](https://user-images.githubusercontent.com/55415399/177394580-31c6a0b1-62b6-42ea-8b92-657d3dae854e.PNG)
+![Zoa-2](https://user-images.githubusercontent.com/55415399/177394587-ada9e411-c3d5-490d-8a16-4958606201d1.PNG)
+![Zoa-3](https://user-images.githubusercontent.com/55415399/177394596-94e46886-c0fc-43f8-8fc8-824c3ef25015.PNG)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install
 
-### `npm run build`
+### To Run Test Suite
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm test
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### To Start Server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm start
 
-### `npm run eject`
+## Reflection
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project was created for me to practice and learn how to implement a dark theme in a react application. My solution to achieve this was to create two CSS color palates, one labeled 'darkmode' and add or remove that class from the body of the page using a javascript button. The state is then stored in local storage on your machine so your preference will be remembered next time you visit. Local storage is a safe way to store information on a machine as it transmits no data back to the server.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project features the AOS (animate on scroll) library available here. https://michalsnik.github.io/aos/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is built with React and React-Router.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
